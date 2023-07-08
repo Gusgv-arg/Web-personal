@@ -1,0 +1,39 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'animate.css/animate.min.css';
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+/* Reset básico de estilos */
+
+/* Establecer el box-sizing en border-box para todos los elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Evitar que las imágenes se salgan del contenedor */
+.img {
+  min-width: 200px;
+  min-height: 200px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover
+}
+
+
+
